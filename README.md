@@ -6,11 +6,14 @@ This project solves a puzzle by retrieving and assembling fragments of text from
 - A benchmarking script to measure performance.
 - An experimental (and deprecated) Go version in `/golang_script`.
 
----
+# ✅ Result
+The script find the solution in 500 ms !! 🚀🚀🚀🚀
 
-## 🚀 How to Run
+![alt text](https://github.com/arturoverbel/lumu/blob/main/screenshots/screenshot.png "Logo Title Text 1")
 
-### 🔧 Run the script
+# 🚀 How to Run
+
+## 🔧 Run the script
 This command exec the script once
 
 ```bash
@@ -25,7 +28,7 @@ hello world quick brown fox jumps over lazy dog you have to call all request at 
 $
 ```
 
-### ⚒️ Benchmark
+## ⚒️ Benchmark
 Default run (100 repetitions):
 ```bash
 $ npm i
