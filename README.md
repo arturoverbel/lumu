@@ -71,7 +71,6 @@ The JavaScript solution leverages Promises because:
 - Node.js is highly optimized for concurrent I/O operations like HTTP.
 
 This makes it **fast**, **clean**, and **reliable** for use cases like retrieving many small HTTP fragments quickly.
-
 Additionally, the script is designed to:
 
 - Exit immediately after collecting all 28 puzzle fragments.
@@ -81,7 +80,6 @@ Additionally, the script is designed to:
 
 # ⚠️ Why Go Didn't Work Well Here
 An attempt to solve the same puzzle using Go with goroutines was made and stored in /golang_script.
-
 Despite Go being great for concurrency, in this specific challenge it faced issues such as:
 
 - **Unstable performance** when firing hundreds of HTTP requests in parallel.
